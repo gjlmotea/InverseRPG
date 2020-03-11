@@ -45,4 +45,4 @@ def parseFile(line):
 ##def QN(Q_num, Q_text):
 ##    pass
 
-readFile("C:\\Users\\GJLMoTea\\Desktop\\InverseGame\\Question")
+readFile(".\\data\\Question")
