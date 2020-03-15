@@ -1,4 +1,4 @@
-from tools.TextDisplayMod import *
+from TextDisplayMod import *
 import re
 
 def readFile(path):
@@ -12,7 +12,8 @@ def parseFile(line):
 
     '''從第0個位置上是<#>的話代表這行是註解'''
     if line.find("<#>") == 0:
-        return 
+        line = ""
+        pass
 
     '''Question題號
     ^ 從第0個位置開始匹配起
@@ -44,4 +45,4 @@ def parseFile(line):
 ##def QN(Q_num, Q_text):
 ##    pass
 
-readFile(".\\data\\Question")
+readFile("..\\data\\Question")

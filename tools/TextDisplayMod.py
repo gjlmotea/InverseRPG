@@ -1,3 +1,4 @@
+'''Display Text'''
 def distxt(string):
     print(string, end='', sep='')
 
