@@ -1,4 +1,4 @@
-from tools.TextDisplayMod import *
+from tools.TextDisplay import *
 import re
 
 def readFile(path):

@@ -1,7 +1,13 @@
-from os import system, name 
+from os import system, name
 
 def clear():   
     if name == 'nt': 
         _ = system('cls') 
     else: 
         _ = system('clear') 
+
+
+class test():
+    def tes1():
+        pass
+    print("test")

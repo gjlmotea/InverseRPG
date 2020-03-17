@@ -8,7 +8,11 @@ DEF = 10
 LUC = 10
 DOL = 0
 IQ = 70
-from ClearScreen import *
+
+
+
+from tools.ClearScreen import *
+
 def GameOver():
     print("Game Over!!")
     import sys
@@ -55,7 +59,8 @@ if __name__ == '__main__':
             HP = HP - 5
             MaxHP = MaxHP + 10
             break
-
+        else:
+            print("請重新輸入。")
 
     print()
     while True:
@@ -93,7 +98,9 @@ if __name__ == '__main__':
             print("很遺憾，你死了。")
             GameOver()
             break
+        else:
+            print("請重新輸入。")
     
-    print("要再休息一下嗎？")
-    print("要再休息一下嗎？")
+    
+    
 
