@@ -8,7 +8,7 @@ DEF = 10
 LUC = 10
 DOL = 0
 IQ = 70
-from ClearScreen import *
+from InverseRPG.tools import Screen
 def GameOver():
     print("Game Over!!")
     import sys
@@ -32,7 +32,7 @@ if __name__ == '__main__':
         else:
             print("請重新輸入。")
 
-
+    Screen.clear()
     print()
     while True:
         print("<Q002>")
