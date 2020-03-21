@@ -10,9 +10,6 @@ DOL = 0
 IQ = 70
 
 
-
-from tools.ClearScreen import *
-
 def GameOver():
     print("Game Over!!")
     import sys
@@ -36,7 +33,7 @@ if __name__ == '__main__':
         else:
             print("請重新輸入。")
 
-
+    Screen.clear()
     print()
     while True:
         print("<Q002>")
