@@ -1,0 +1,30 @@
+function : fn
+text : txt
+object : obj
+count : cnt
+number : num
+argument : arg
+buffer : buff
+clock : clk
+configuration : cfg
+compare : cmp
+command : cmd
+device : dev
+error : err
+hexadecimal : hex
+increment : inc
+initialize: init
+maximum : max
+message : msg
+minimum : min
+parameter : para
+previous : prev
+register : reg
+semaphore : sem
+statistic : stat
+synchronize : sync
+temp : tmp
+
+ref:
+https://www.twblogs.net/a/5b8fdb122b7177672215d903
+http://blog.sina.com.cn/s/blog_a4cdf305010169vk.html

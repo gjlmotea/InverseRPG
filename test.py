@@ -8,5 +8,9 @@ if __name__ == '__main__':
     base_path = getcwd()
     print(base_path)
 
-a = player.player(1000)
-print(a.HP)
+a = player.Attr()
+a.default_attr
+print(a.HP, a.MaxHP, a.Atk, a.Def)
+a.set_HP("=", 123.59)
+print(a.HP, a.MaxHP, a.Atk, a.Def)
+
