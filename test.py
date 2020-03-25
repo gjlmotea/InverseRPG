@@ -1,6 +1,6 @@
 from core import battle
-from object import monster
-from object import player
+from obj import monster
+from obj import attr
 from os import getcwd
 
 if __name__ == '__main__':
@@ -8,9 +8,11 @@ if __name__ == '__main__':
     base_path = getcwd()
     print(base_path)
 
-a = player.Attr()
-a.default_attr
+a = attr.Attr()
 print(a.HP, a.MaxHP, a.Atk, a.Def)
-a.set_HP("=", 123.59)
+ll = [1,2,3,4]
+
+a.set_HP("=123")
 print(a.HP, a.MaxHP, a.Atk, a.Def)
 
+#a.set_attr("HP", "=123")
