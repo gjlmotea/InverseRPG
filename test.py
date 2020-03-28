@@ -10,9 +10,22 @@ if __name__ == '__main__':
 
 a = attr.Attr()
 print(a.HP, a.MaxHP, a.Atk, a.Def)
-ll = [1,2,3,4]
 
-a.set_HP("=123")
+#a.set_HP("=123")
 print(a.HP, a.MaxHP, a.Atk, a.Def)
 
-#a.set_attr("HP", "=123")
+a.set_attr("HP", "+123")
+print(a.HP, a.MaxHP, a.Atk, a.Def)
+
+a.set_attr("HP", "+1000")
+print(a.HP, a.MaxHP, a.Atk, a.Def)
+
+a.set_attr("HP", "=50")
+print(a.HP, a.MaxHP, a.Atk, a.Def)
+
+a.set_attr("HP", "-10")
+print(a.HP, a.MaxHP, a.Atk, a.Def)
+
+
+a.set_attr("HP", "+11110")
+print(a.HP, a.MaxHP, a.Atk, a.Def)
